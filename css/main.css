@@ -165,6 +165,9 @@
   .icon-bar {
     width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
+    position: absolute;
+    top: 350px;
+    left: 10px;
   }
   
   .icon-bar a {
@@ -186,4 +189,7 @@
 
   .checked {
     color: orange;
+    position: relative;
+    top: -850px;
+    left: 10px;
   }
